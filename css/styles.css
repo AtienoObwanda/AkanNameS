@@ -1,3 +1,11 @@
+body {
+   
+    background-blend-mode: multiply;
+    /* width: 100%; */
+    font-family: cursive;
+    text-align: center;
+    color: black;
+}
 form{
     text-align: left;
     border-radius: 12px;
@@ -7,9 +15,8 @@ form{
 }
 input[type=number],
 [type="radio"] {
-    width: 100%;
     padding: 8px 10px;
-    margin: 5px 0;
+    margin: 1px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;

@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names Generator | By Atieno</title>
-    <!--Styles-->
+  <!--Custom Styles-->
+  <link rel="stylesheet" href="./css/styles.css">
+    <!--Bootstrap Styles-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css">
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-   
+   <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -42,26 +45,27 @@
                     <form  id="form" name="form" onsubmit="findDay()">
                       
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                           <div class="md-form mb-0">
+                            <label for="year">Year of birth</label> 
                               <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Something like 2003" class="form-control">
-                              <label for="year">Year of birth</label> 
                           </div>
                       </div> 
                     </div>
                     <div class="row">
-                      <div class="col-md-6">
-                        <div class="md-form mb-2">
+                      <div class="col-md-8">
+                        <div class="md-form mb-0">
+                          <label for="month">Month</label>
                             <input type="number" id="month" name="month" min="1" max="12" required placeholder="Eg. October=10" class="form-control">
-                            <label for="month">Month</label>
                         </div>
                     </div>
                     
 
                     <div class="col-md-8">
                       <div class="md-form mb-0">
-                          <input type="number" id="date" name="date" min="1" max="31" required placeholder="Eg. 13" class="form-control">
-                          <label for="date">Date</label>
+                        <label for="date">Date</label>
+                         <input type="number" id="date" name="date" min="1" max="31" required placeholder="Eg. 13" class="form-control">
+                          
                       </div>
                   </div>
                   
@@ -70,17 +74,13 @@
                   <div class="col-md-8">
                     <div class="md-form mb-0">
                       <p>Select your gender: <br></p>
-                      <br>
-                     
-
-                      <div class="radio">
+                      <br> 
+                     <div class="radio">
                           <label>
                             <input type="radio" name="gender" value="Female" checked>
                             Female
                           </label>
-                         
                       </div>
-                     
                       <div class="radio">
                           <label>
                             <input type="radio" name="gender" value="Male">
