@@ -1,10 +1,7 @@
 body {
-    /*background: url(../images/white.jpeg) rgba(0, 0, 0, 0.2); */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    
     background-blend-mode: multiply;
-    /* width: 100%; */
+    width: 100%;
     font-family: cursive;
     text-align: center;
     color: black;
@@ -24,17 +21,17 @@ body {
     height: 80px;
 }
 
-.info p {
+.mainI p {
     font-size: larger;
     font-weight: 400;
 }
 
-.tg {
+.table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.tg td {
+.table td {
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -45,7 +42,7 @@ body {
     word-break: normal;
 }
 
-.tg th {
+.table th {
     border-color: black;
     border-style: solid;
     border-width: 1px;
@@ -57,7 +54,7 @@ body {
     word-break: normal;
 }
 
-.tg .tg-baqh {
+.table .table-baqh {
     text-align: center;
     vertical-align: top
 }
@@ -67,7 +64,7 @@ form {
     border-radius: 10px;
     /*background: url(../images/greyscale.jpeg);*/
     padding: 20px;
-    width: 80%;
+    width: 100%;
     margin-left: 25%;
 }
 
