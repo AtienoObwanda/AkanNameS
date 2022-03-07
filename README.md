@@ -11,7 +11,7 @@ This Akan Name generator allows you to key in your date of birth, year of birth 
 HTML | CSS | Bootstrap | Javascript 
 
 #### **Project setup & collaboration**
-TO get this program running on your end, you can clone this repository!
+YOu can get a copy of this program running on your end. All you've to do is clone this repository!
 
 #### **Contact**
 You can reach me through | Email: "atienoobwanda@gmail.com"
