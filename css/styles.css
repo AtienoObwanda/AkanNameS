@@ -6,7 +6,23 @@ body {
     text-align: center;
     color: black;
 }
+.header h3{
+    font-family: Yesteryear,cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+.meaning h4{
+    font-family: Yesteryear,cursive;
+    text-align: center;
+    font-weight: 800;
+}
+.main h5{
+    font-family: Yesteryear,cursive;
+    text-align: center;
+    font-weight: 600;
+}
 form{
+    background-image: url(../images/img1.png);
     text-align: left;
     border-radius: 12px;
     padding: 18px;
