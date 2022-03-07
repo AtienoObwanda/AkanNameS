@@ -1,6 +1,6 @@
 body {
    
-   
+   background-image: url(../images/);
     /* width: 100%; */
     font-family: cursive;
     text-align: center;
@@ -121,4 +121,25 @@ tbody{
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+.randorm1 img{
+    float: right;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.randorm2 img{
+    float: left;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.randorm img{
+    float: left;
+    margin-left: 0;
+    border-radius: 30%;
+    width: 120px;
+    height: 120px;
 }
