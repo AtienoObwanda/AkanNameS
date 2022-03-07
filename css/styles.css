@@ -1,11 +1,12 @@
-body {
-   
-   background-image: url(../images/);
-    /* width: 100%; */
+body,html {
+     /* width: 100%; */
     font-family: cursive;
     text-align: center;
     color: black;
+    height: 100%;
 }
+
+
 
 .header h3{
     font-family: Yesteryear,cursive;
